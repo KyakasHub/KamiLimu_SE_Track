@@ -20,6 +20,21 @@ console.log(`- Welcome, ${studentName.toLowerCase()}!`);
 }
 studentsWelcome(students);
 
+// TODO: 2. Adding Logic for first and last names.
+const studentNames = ["Alice Ate", "Bob", "Charlie Mason", "Anna Marie", "Brian Ate"];
+console.log("Student Roll Call:");
+
+for (const studentName of studentNames) {
+  const names = studentName.split(" ");
+  const firstName = names[0].toLowerCase();
+  const lastName = names[names.length - 1].toLowerCase();
+
+  if (firstName.startsWith("a") || lastName.endsWith("e")) {
+    console.log(`Welcome, ${studentName}!`);
+  }
+}
+
+
 //TODO: 3.Create a dynamic array that accepts user input until they type "done".
 let nameInputs= [];
 let studentName= prompt("Enter a student name or type 'done' when finished: ");
