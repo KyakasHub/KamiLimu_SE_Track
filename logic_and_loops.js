@@ -1,3 +1,6 @@
+//Name: Ryan Kyaka
+//Date: 6th July 2025
+
 const prompt = require('prompt-sync')();
 const students = ["Alice Ate", "Bob", "Charlie"];
 console.log("Student Roll Call:");
