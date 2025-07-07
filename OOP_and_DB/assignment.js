@@ -1,3 +1,5 @@
+//Name: Ryan Kyaka
+//Date: 6th July 2025
 class Book {
   constructor(title, author, isbn) {
     this.title = title;
