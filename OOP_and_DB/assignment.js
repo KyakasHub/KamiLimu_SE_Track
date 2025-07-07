@@ -12,7 +12,7 @@ class Book {
   checkOut(member) {
     if (this.isCheckedOut) {
       console.log(`${this.title} is already checked out.`);
-      return false; // failed
+      return false; 
     } else {
       this.isCheckedOut = true;
       this.borrower = member;
